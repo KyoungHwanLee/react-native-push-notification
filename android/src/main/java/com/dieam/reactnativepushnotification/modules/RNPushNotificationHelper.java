@@ -520,7 +520,6 @@ public class RNPushNotificationHelper {
     }
 
     public void sendToNotificationCentre(final Bundle bundle) {
-        Log.d(TAG, "sendToNotificationCentre: bundle: "+bundle.toString());
         String imageUrl = bundle.getString("imageUrl");
         String largeIconUrl = bundle.getString("largeIconUrl");
 
